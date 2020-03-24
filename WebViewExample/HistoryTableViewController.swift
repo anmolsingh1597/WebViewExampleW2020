@@ -12,6 +12,7 @@ class HistoryTableViewController: UITableViewController {
     static var urls: [WKBackForwardListItem] = []
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(HistoryTableViewController.urls)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

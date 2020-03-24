@@ -10,14 +10,14 @@ import UIKit
 import WebKit
 
 class WebViewController: UIViewController {
+    
     @IBOutlet weak var iWebView: WKWebView!
-    var urls: [URL] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         lambtonURL()
-        urls.append((iWebView?.url)!)
-        print([urls])
+               
+    
     }
     
     func loadHtml(){
