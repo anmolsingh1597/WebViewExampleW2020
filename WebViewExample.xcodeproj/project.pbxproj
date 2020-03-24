@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8EAE6899242ABAC2003D04E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE6898242ABAC2003D04E2 /* AppDelegate.swift */; };
 		8EAE689B242ABAC2003D04E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE689A242ABAC2003D04E2 /* SceneDelegate.swift */; };
-		8EAE689D242ABAC2003D04E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE689C242ABAC2003D04E2 /* ViewController.swift */; };
+		8EAE689D242ABAC2003D04E2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE689C242ABAC2003D04E2 /* WebViewController.swift */; };
 		8EAE68A0242ABAC2003D04E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAE689E242ABAC2003D04E2 /* Main.storyboard */; };
 		8EAE68A2242ABAC3003D04E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAE68A1242ABAC3003D04E2 /* Assets.xcassets */; };
 		8EAE68A5242ABAC3003D04E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAE68A3242ABAC3003D04E2 /* LaunchScreen.storyboard */; };
+		8EAE68AD242ACE0E003D04E2 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE68AC242ACE0E003D04E2 /* HistoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8EAE6895242ABAC2003D04E2 /* WebViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAE6898242ABAC2003D04E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EAE689A242ABAC2003D04E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8EAE689C242ABAC2003D04E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EAE689C242ABAC2003D04E2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		8EAE689F242ABAC2003D04E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EAE68A1242ABAC3003D04E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EAE68A4242ABAC3003D04E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EAE68A6242ABAC3003D04E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAE68AC242ACE0E003D04E2 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				8EAE6898242ABAC2003D04E2 /* AppDelegate.swift */,
 				8EAE689A242ABAC2003D04E2 /* SceneDelegate.swift */,
-				8EAE689C242ABAC2003D04E2 /* ViewController.swift */,
+				8EAE689C242ABAC2003D04E2 /* WebViewController.swift */,
+				8EAE68AC242ACE0E003D04E2 /* HistoryTableViewController.swift */,
 				8EAE689E242ABAC2003D04E2 /* Main.storyboard */,
 				8EAE68A1242ABAC3003D04E2 /* Assets.xcassets */,
 				8EAE68A3242ABAC3003D04E2 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EAE689D242ABAC2003D04E2 /* ViewController.swift in Sources */,
+				8EAE68AD242ACE0E003D04E2 /* HistoryTableViewController.swift in Sources */,
+				8EAE689D242ABAC2003D04E2 /* WebViewController.swift in Sources */,
 				8EAE6899242ABAC2003D04E2 /* AppDelegate.swift in Sources */,
 				8EAE689B242ABAC2003D04E2 /* SceneDelegate.swift in Sources */,
 			);
